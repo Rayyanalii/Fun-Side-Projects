@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .notStartedBoxProp {
+    @apply sm:w-20 sm:h-20 w-14 h-14 bg-purple-900 rounded-lg;
+  }
+  .startedBoxProp {
+    @apply sm:w-20 sm:h-20 w-14 h-14 bg-purple-900 rounded-lg cursor-pointer flex justify-center items-center sm:text-5xl text-4xl  font-bold;
+  }
+  .winningBox {
+    @apply sm:w-20 sm:h-20 w-14 h-14 bg-red-500 rounded-lg cursor-pointer flex justify-center items-center sm:text-5xl text-4xl font-bold;
+  }
+}
