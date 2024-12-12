@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .notStartedBoxProp {
+    @apply lg:w-10 lg:h-10 w-8 h-8 bg-purple-900 rounded-lg;
+  }
+  .startedBoxProp {
+    @apply lg:w-10 lg:h-10 w-8 h-8 bg-purple-900 rounded-lg cursor-pointer flex justify-center items-center lg:text-3xl text-2xl  font-bold;
+  }
+}

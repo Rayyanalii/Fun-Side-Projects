@@ -168,6 +168,7 @@ function App() {
               Reset
             </button>
           </div>
+          <p className='text-sm text-white font-semibold  text-right'>Made by <a href='https://github.com/Rayyanalii' target="_blank" className='italic'>Rayyanalii</a></p>
         </div>
       </div>
     </>
