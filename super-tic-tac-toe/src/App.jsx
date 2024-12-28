@@ -131,45 +131,45 @@ function App() {
             <div className="row flex justify-center lg:gap-20 gap-8 w-full">
 
               {boxes[0] && boxes[0] != "Draw" ? <>
-                <div className={`  flex lg:min-w-[10rem] min-w-[8.5rem] justify-center items-center lg:text-6xl text-5xl font-bold bg-red-500 mt-10 rounded-lg ${boxes[0] == "X" ? 'text-cyan-400' : 'text-yellow-400'}`}><div>{boxes[0]}</div></div>
+                <div className={`  flex lg:w-[10rem] lg:h-[10rem] w-[8.5rem] h-[8.5rem] justify-center items-center lg:text-6xl text-5xl font-bold bg-red-500 mt-10 rounded-lg ${boxes[0] == "X" ? 'text-cyan-400' : 'text-yellow-400'}`}><div>{boxes[0]}</div></div>
               </> : <SimpleTicTacToe id={0} isStarted={isStarted} currentTurn={currentTurn} setCurrentTurn={setCurrentTurn} setPlayableBox={setPlayableBox} playableBox={playableBox} setMainBoxes={setBoxes} mainBoxes={boxes} />}
 
               {boxes[1] && boxes[1] != "Draw" ? <>
-                <div className={`  flex lg:min-w-[10rem] min-w-[8.5rem] justify-center items-center lg:text-6xl text-5xl font-bold bg-red-500 mt-10 rounded-lg ${boxes[1] == "X" ? 'text-cyan-400' : 'text-yellow-400'}`}><div>{boxes[1]}</div></div>
+                <div className={`  flex lg:w-[10rem] lg:h-[10rem] w-[8.5rem] h-[8.5rem] justify-center items-center lg:text-6xl text-5xl font-bold bg-red-500 mt-10 rounded-lg ${boxes[1] == "X" ? 'text-cyan-400' : 'text-yellow-400'}`}><div>{boxes[1]}</div></div>
               </> : <SimpleTicTacToe id={1} isStarted={isStarted} currentTurn={currentTurn} setCurrentTurn={setCurrentTurn} setPlayableBox={setPlayableBox} playableBox={playableBox} setMainBoxes={setBoxes} mainBoxes={boxes} />}
 
               {boxes[2] && boxes[2] != "Draw" ? <>
-                <div className={` flex lg:min-w-[10rem] min-w-[8.5rem] justify-center items-center lg:text-6xl text-5xl font-bold bg-red-500 mt-10 rounded-lg ${boxes[2] == "X" ? 'text-cyan-400' : 'text-yellow-400'}`}><div>{boxes[2]}</div></div>
+                <div className={` flex lg:w-[10rem] lg:h-[10rem] w-[8.5rem] h-[8.5rem] justify-center items-center lg:text-6xl text-5xl font-bold bg-red-500 mt-10 rounded-lg ${boxes[2] == "X" ? 'text-cyan-400' : 'text-yellow-400'}`}><div>{boxes[2]}</div></div>
               </> : <SimpleTicTacToe id={2} isStarted={isStarted} currentTurn={currentTurn} setCurrentTurn={setCurrentTurn} setPlayableBox={setPlayableBox} playableBox={playableBox} setMainBoxes={setBoxes} mainBoxes={boxes} />}
 
             </div>
             <div className="row flex justify-center lg:gap-20 gap-8 w-full">
 
               {boxes[3] && boxes[3] != "Draw" ? <>
-                <div className={`flex lg:min-w-[10rem] min-w-[8.5rem] justify-center items-center lg:text-6xl text-5xl font-bold bg-red-500 mt-10 rounded-lg ${boxes[3] == "X" ? 'text-cyan-400' : 'text-yellow-400'}`}><div>{boxes[3]}</div></div>
+                <div className={`flex lg:w-[10rem] lg:h-[10rem] w-[8.5rem] h-[8.5rem] justify-center items-center lg:text-6xl text-5xl font-bold bg-red-500 mt-10 rounded-lg ${boxes[3] == "X" ? 'text-cyan-400' : 'text-yellow-400'}`}><div>{boxes[3]}</div></div>
               </> : <SimpleTicTacToe id={3} isStarted={isStarted} currentTurn={currentTurn} setCurrentTurn={setCurrentTurn} setPlayableBox={setPlayableBox} playableBox={playableBox} setMainBoxes={setBoxes} mainBoxes={boxes} />}
 
               {boxes[4] && boxes[4] != "Draw" ? <>
-                <div className={`flex lg:min-w-[10rem] min-w-[8.5rem] justify-center items-center lg:text-6xl text-5xl font-bold bg-red-500 mt-10 rounded-lg ${boxes[4] == "X" ? 'text-cyan-400' : 'text-yellow-400'}`}><div>{boxes[4]}</div></div>
+                <div className={`flex lg:w-[10rem] lg:h-[10rem] w-[8.5rem] h-[8.5rem] justify-center items-center lg:text-6xl text-5xl font-bold bg-red-500 mt-10 rounded-lg ${boxes[4] == "X" ? 'text-cyan-400' : 'text-yellow-400'}`}><div>{boxes[4]}</div></div>
               </> : <SimpleTicTacToe id={4} isStarted={isStarted} currentTurn={currentTurn} setCurrentTurn={setCurrentTurn} setPlayableBox={setPlayableBox} playableBox={playableBox} setMainBoxes={setBoxes} mainBoxes={boxes} />}
 
               {boxes[5] && boxes[5] != "Draw" ? <>
-                <div className={`flex lg:min-w-[10rem] min-w-[8.5rem] justify-center items-center lg:text-6xl text-5xl font-bold bg-red-500 mt-10 rounded-lg ${boxes[5] == "X" ? 'text-cyan-400' : 'text-yellow-400'}`}><div>{boxes[5]}</div></div>
+                <div className={`flex lg:w-[10rem] lg:h-[10rem] w-[8.5rem] h-[8.5rem] justify-center items-center lg:text-6xl text-5xl font-bold bg-red-500 mt-10 rounded-lg ${boxes[5] == "X" ? 'text-cyan-400' : 'text-yellow-400'}`}><div>{boxes[5]}</div></div>
               </> : <SimpleTicTacToe id={5} isStarted={isStarted} currentTurn={currentTurn} setCurrentTurn={setCurrentTurn} setPlayableBox={setPlayableBox} playableBox={playableBox} setMainBoxes={setBoxes} mainBoxes={boxes} />}
 
             </div>
             <div className="row flex justify-center lg:gap-20 gap-8 w-full">
 
               {boxes[6] && boxes[6] != "Draw" ? <>
-                <div className={`flex lg:min-w-[10rem] min-w-[8.5rem] justify-center items-center lg:text-6xl text-5xl font-bold bg-red-500 mt-10 rounded-lg ${boxes[6] == "X" ? 'text-cyan-400' : 'text-yellow-400'}`}><div>{boxes[6]}</div></div>
+                <div className={`flex lg:w-[10rem] lg:h-[10rem] w-[8.5rem] h-[8.5rem] justify-center items-center lg:text-6xl text-5xl font-bold bg-red-500 mt-10 rounded-lg ${boxes[6] == "X" ? 'text-cyan-400' : 'text-yellow-400'}`}><div>{boxes[6]}</div></div>
               </> : <SimpleTicTacToe id={6} isStarted={isStarted} currentTurn={currentTurn} setCurrentTurn={setCurrentTurn} setPlayableBox={setPlayableBox} playableBox={playableBox} setMainBoxes={setBoxes} mainBoxes={boxes} />}
 
               {boxes[7] && boxes[7] != "Draw" ? <>
-                <div className={`flex lg:min-w-[10rem] min-w-[8.5rem] justify-center items-center lg:text-6xl text-5xl font-bold bg-red-500 mt-10 rounded-lg ${boxes[7] == "X" ? 'text-cyan-400' : 'text-yellow-400'}`}><div>{boxes[7]}</div></div>
+                <div className={`flex lg:w-[10rem] lg:h-[10rem] w-[8.5rem] h-[8.5rem] justify-center items-center lg:text-6xl text-5xl font-bold bg-red-500 mt-10 rounded-lg ${boxes[7] == "X" ? 'text-cyan-400' : 'text-yellow-400'}`}><div>{boxes[7]}</div></div>
               </> : <SimpleTicTacToe id={7} isStarted={isStarted} currentTurn={currentTurn} setCurrentTurn={setCurrentTurn} setPlayableBox={setPlayableBox} playableBox={playableBox} setMainBoxes={setBoxes} mainBoxes={boxes} />}
 
               {boxes[8] && boxes[8] != "Draw" ? <>
-                <div className={`flex lg:min-w-[10rem] min-w-[8.5rem] justify-center items-center lg:text-6xl text-5xl font-bold bg-red-500 mt-10 rounded-lg ${boxes[8] == "X" ? 'text-cyan-400' : 'text-yellow-400'}`}><div>{boxes[8]}</div></div>
+                <div className={`flex lg:w-[10rem] lg:h-[10rem] w-[8.5rem] h-[8.5rem] justify-center items-center lg:text-6xl text-5xl font-bold bg-red-500 mt-10 rounded-lg ${boxes[8] == "X" ? 'text-cyan-400' : 'text-yellow-400'}`}><div>{boxes[8]}</div></div>
               </> : <SimpleTicTacToe id={8} isStarted={isStarted} currentTurn={currentTurn} setCurrentTurn={setCurrentTurn} setPlayableBox={setPlayableBox} playableBox={playableBox} setMainBoxes={setBoxes} mainBoxes={boxes} />}
 
             </div>
