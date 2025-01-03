@@ -33,15 +33,15 @@ const CategoriesOption = () => {
                         {categories.map((cat, index) => (
                             <div
                                 key={index}
-                                className={`font-semibold text-lg max-w-36 w-full rounded-md cursor-pointer hover:bg-blue-700 ${selectedCategories.includes(cat) ? 'bg-blue-700 text-white' : ''
+                                className={`font-semibold text-lg max-w-36 w-full rounded-md cursor-pointer hover:bg-blue-700 ${selectedCategories.includes(cat.name) ? 'bg-blue-700 text-white' : ''
                                     }`}
                                 onClick={() => {
                                     soundManager.play('click');
-                                    handleCategoryClick(cat)
+                                    handleCategoryClick(cat.name)
                                 }}
                                 onMouseEnter={() => soundManager.play('hover')}
                             >
-                                {cat.includes(':') ? cat.split(':')[1] : cat}
+                                {cat.name.includes(':') ? cat.name.split(':')[1] : cat.name}
                             </div>
                         ))}
                     </div>

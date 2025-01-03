@@ -4,6 +4,6 @@
 
 @layer components {
   .background {
-    @apply min-h-screen bg-gradient-to-r from-sky-600   to-purple-800 flex justify-center items-center text-white;
+    @apply min-h-screen bg-gradient-to-r from-sky-600   to-purple-800 flex justify-center overflow-hidden items-center text-white;
   }
 }

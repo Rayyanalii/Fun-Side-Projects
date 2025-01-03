@@ -11,7 +11,7 @@ function App() {
   }
 
   function handleStartButton() {
-    navigate("/start")
+    navigate("/level")
   }
 
   return (
@@ -31,7 +31,6 @@ function App() {
             </div>
           </div>
         </div>
-        <QuizLevel />
       </div>
     </>
   )
